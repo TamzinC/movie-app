@@ -1,6 +1,6 @@
 /* VARIABLES */
 :root {
-    --magenta: #993955;
+    --blue: #048BA8;
     --orange: #F18F01;
 }
 
@@ -39,21 +39,21 @@ body {
 /* CUSTOM STYLES */
 h1.main-header {
     margin: 20px 0 25px;
-    color: var(--magenta);
+    color: var(--blue);
 }
 
 input.search {
     padding: 8px 15px;
     width: 350px;
     border-radius: 10px;
-    border: 1px solid var(--magenta);
+    border: 1px solid var(--blue);
     outline: none;
     margin-bottom: 35px;
     color: #555;
 }
 
 input.search::placeholder {
-    color: var(--magenta);
+    color: var(--blue);
     text-align: center;
 }
 
@@ -66,7 +66,7 @@ main {
 
 main .movie-card {
     padding: 15px 10px;
-    border: 3px solid var(--magenta);
+    border: 3px solid var(--blue);
     border-radius: 4px;
     background-position: center;
     background-size: cover;
@@ -82,7 +82,7 @@ main .movie-card > *:not(:last-child) {
 
 main p.no-search {
     grid-column: 1 / 5;
-    color: var(--magenta);
+    color: var(--blue);
 }
 
 main .movie-card h3 {
